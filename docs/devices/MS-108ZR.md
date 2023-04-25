@@ -47,6 +47,7 @@ Value can be found in the published state on the `calibration_time` property.
 To read (`/get`) the value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/get` with payload `{"calibration_time": ""}`.
 To write (`/set`) a value publish a message to topic `zigbee2mqtt/FRIENDLY_NAME/set` with payload `{"calibration_time": NEW_VALUE}`.
 The minimal value is `0` and the maximum value is `100`.
+The Calibration Time is period in seconds.  Example: A value of 30, means the switch works on the assumptions it takes 30 seconds to go from OPEN` or `CLOSE`or visa versa.  Activating the`CLOSE`command when in status OPEN` with activate the L2 line 30 seconds.
 
 ### Moving (enum)
 Value can be found in the published state on the `moving` property.
