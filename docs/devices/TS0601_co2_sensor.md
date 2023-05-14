@@ -17,7 +17,7 @@ pageClass: device-page
 |-----|-----|
 | Model | TS0601_co2_sensor  |
 | Vendor  | [TuYa](/supported-devices/#v=TuYa)  |
-| Description | NDIR co2 sensor |
+| Description | CO2eq or eCO2 based co2 sensor |
 | Exposes | temperature, humidity, co2, linkquality |
 | Picture | ![TuYa TS0601_co2_sensor](https://www.zigbee2mqtt.io/images/devices/TS0601_co2_sensor.jpg) |
 
